@@ -408,6 +408,10 @@ h1 {
   margin-bottom: 10px;
 }
 
+h2 {
+  font-weight: 400;
+}
+
 .subtitle {
   font-weight: 200;
   font-size: 2.5rem;
@@ -426,4 +430,28 @@ h1 {
   font-weight: 300;
   font-size: 1.4rem;
   line-height: 2.2rem;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.product img {
+  width: 40vw;
+}
+
+.products {
+  margin-top: 100px;
+  padding: 0px 100px;
+}
+
+.products p {
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+footer p {
+  text-align: center;
 }
